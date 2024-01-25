@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPLauncher</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #171a21;
+      color: #fff;
+      text-align: center;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      background-color: #5d6d7e;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #4a5a6d;
+    }
+
+    .github-link {
+      margin-top: 30px;
+    }
+
+    .github-link a {
+      color: #2ecc71;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .github-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+<body>
+<h1>CPLauncher</h1>
+<button id="launchCPI">Launch CP Imagined</button>
+<button id="launchNewCP">Launch New CP</button>
+<button id="launchCPJor">Launch CP Journey</button>
+<button id="launchCPLegacy">Launch CP Legacy</button>
+<div class="github-link">
+<p>Check for updates on <a href="https://github.com/KornineQ/newcp-patcher" target="_blank">GitHub</a> For NewCP Patcher!</p>
+</div>
+<div class="github-link">
+<p>Check for updates on <a href="https://github.com/KornineQStuff/CPLauncher/" target="_blank">GitHub</a></p>
+</div>
+<script>
+    const launchButtonCPI = document.getElementById('launchCPI');
+    const launchButtonNewCP = document.getElementById('launchNewCP');
+    const launchButtonCPJor = document.getElementById('launchCPJor');
+    const launchButtonCPLegacy = document.getElementById('launchCPLegacy');
+
+    launchButtonCPI.addEventListener('click', () => {
+      window.location.href = 'https://www.cpimagined.net/';
+    });
+
+    launchButtonNewCP.addEventListener('click', () => {
+      window.location.href = 'https://play.newcp.net/';
+    });
+
+    launchButtonCPJor.addEventListener('click', () => {
+      window.location.href = 'https://play.cpjourney.net/';
+    });
+
+    launchButtonCPLegacy.addEventListener('click', () => {
+      window.location.href = 'https://play.cplegacy.com/';
+    });
+  </script>
+</body></html>
