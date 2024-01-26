@@ -36,6 +36,7 @@ To integrate CPLauncher with Electron:
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/KornineQStuff/CPLauncher/issues).
+Demo site: [Demo](https://kornineq.de/cplauncher)
 
 ## 📝 License
 
