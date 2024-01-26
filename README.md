@@ -1,7 +1,7 @@
 <h1 align="center">CPLauncher</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/license-MIT-green.svg" />
 </p>
 
