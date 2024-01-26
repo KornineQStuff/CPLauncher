@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  CPLauncher is a sleek HTML-based tool designed to simplify the selection and launching of Club Penguin Private Servers (CPPS), ensuring a seamless experience for users.
+  CPLauncher (Club Penguin Launcher) is a sleek HTML-based tool designed to simplify the selection and launching of Club Penguin Private Servers (CPPS), ensuring a seamless experience for users.
 </p>
 
 ## 🚀 Features
